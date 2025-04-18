@@ -1,14 +1,12 @@
 {
   "type": "status_change",
   "status": "configuring",
-  "mem": {
-  },
+  "mem": {},
   "nodes": [
     {
       "name": "leo",
-      "ssh_hostname": "leo",
-      "worker": {"host": "133.27.19.52", "port": 1091},
-      "index_shipper": {"host": "133.27.19.52", "port": 43411}
+      "worker": {"host": "133.27.19.52", "port": 11091},
+      "index_shipper": {"host": "133.27.19.52", "port": 53411}
     }
   ],
   "controller": {
