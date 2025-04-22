@@ -5,7 +5,7 @@
   },
   "nodes": [
     {
-      "name": "leo",
+      "name": "host1",
       "ssh_hostname": "leo",
       "worker": {"host": "133.27.19.52", "port": 1091},
       "index_shipper": {"host": "133.27.19.52", "port": 43411}
@@ -13,6 +13,6 @@
   ],
   "controller": {
     "http_port": 8666,
-    "rpc_port": 3148
+    "rpc_port": 3144
   }
 }
